@@ -4,9 +4,79 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+            <img src="{{ "/img/natesite-4thfloor.jpg" | prepend: site.baseurl }}" />
+            <h3>The 4th Floor</h3>
+            <p>The 4th Floor of the Chattanooga Public Library was an attic full of junk. I built a team of exceptional collaborators and instigators, cleaned it out, and opened it to the public.
 
-  <ul class="post-list">
+The result: a 14,000 square foot flexible community makerspace, hackerspace, and event, production, and presentation space.</p>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+            <img src="{{ "/img/natesite-dpla.jpg" | prepend: site.baseurl }}" />
+            <h3>DPLA Use Cases</h3>
+            During the planning phase of the Digital Public Library of America, I led an initiative to develop 10 unique use cases to focus the emerging platform on user needs.
+
+The result: A freely accessible national digital library that is available to the world to use and build upon.
+		</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+            <img src="{{ "/img/natesite-outpost.jpg" | prepend: site.baseurl }}" />
+            <h3>The Library Outpost</h3>
+            In 2006, I began a research project at Pratt Institute describing a flexible, scalable storefront library service model for connected cities using Brooklyn’s Dumbo neighborhood as a target site. This library semi-popup was programmed to have no locally hosted book collection.
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+            <img src="{{ "/img/natesite-open.jpg" | prepend: site.baseurl }}" />
+            <h3>Open Chattanooga</h3>
+            Open Chattanooga is a collaboration between the Chattanooga Public Library, the local Code for America brigade, and the office of mayor Andy Berke.
+
+The result: an open data portal hosted at the public library, serving civic data and more.
+		</div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+            <img src="{{ "/img/natesite-scanjose.jpg" | prepend: site.baseurl }}" />
+            <h3>Mobile Local History</h3>
+            'Scan Jose' was a mobile web application I built for the San Jose Public Library in 2009-10 that used geolocation to introduce residents and tourists to San José Public Library’s historic digital images in the places they were originally captured long ago.
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+            <img src="{{ "/img/natesite-gps.jpg" | prepend: site.baseurl }}" />
+            <h3>Greenpoint Poetry Sites</h3>
+            In 2008, before QR codes were lame, before there were Foursquare and Facebook checkins, there was Greenpoint Poetry Sites. These were place-based community poems, launched and edited on your mobile phone.
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+            <img src="{{ "/img/natesite-devdev.jpg" | prepend: site.baseurl }}" />
+            <h3>Code Camp</h3>
+            Devdev was Chattanooga’s first code camp for teens, made possible by a grant from the Benwood Foundation. Over the course of four weeks, fifty teens gathered on the 2nd Floor of the Chattanooga Downtown Library to learn all about HTML, CSS, Python, and robotics.
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+            <img src="{{ "/img/natesite-liblab.jpg" | prepend: site.baseurl }}" />
+             <h3>Library Lab</h3>
+            The Library Lab is an open source, portable, modular solution for content creation in libraries. This was an entry in a design competition in 2010. The collaboration included myself, Noll & Tam Architecture, Matthew Williams Design, Wikimedia DC, and others.
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+             <h3>Blog</h3>
+            
+            <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -19,5 +89,14 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+  </div>
+          </div>
+        </div><!-- /.col-sm-4 -->
+      </div>
+      
+  <!--<h1 class="page-heading">Posts</h1>-->
+
+  
 
 </div>
