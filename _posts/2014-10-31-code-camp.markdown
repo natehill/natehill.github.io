@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Code Camp"
+date:   2014-10-29 10:27:34
+category: project
+categories: projects
+img: /img/natesite-devdev.jpg
+---
+<img src="{{ "/img/natesite-devdev.jpg" | prepend: site.baseurl }}" />
+
+Devdev was Chattanooga’s first code camp for teens, made possible by a grant from the Benwood Foundation. Over the course of four weeks, fifty teens gathered on the 2nd Floor of the Chattanooga Downtown Library to learn all about HTML, CSS, Python, and robotics.
