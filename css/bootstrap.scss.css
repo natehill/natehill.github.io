@@ -7,13 +7,14 @@
  /*
  custom
  */
-.custom-site-header{min-height:60px;}
-
 .navbar{border-bottom: 3px solid #ccc;}
 
-.navbar-inverse a.navbar-brand {
+a.navbar-brand {
 font-size: 30px;
 font-weight: 200;
+}
+
+.navbar-inverse a.navbar-brand {
 color:#7FFF00;
 }
 
@@ -21,10 +22,12 @@ a.navbar-brand:hover {
 color:#66CD00;
 }
 
+
 .navbar-collapse.collapse li {
 line-height: 32px;
 font-size: 20px;
 }
+
 
 .panel-default{
 -webkit-box-shadow: 0 8px 6px -6px black;
