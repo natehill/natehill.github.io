@@ -60,7 +60,9 @@ layout: default
     <div class="col-sm-4">
     	<div class="panel panel-default">
     		<div class="panel-body">
-    		<img src="{{ post.img | prepend: site.baseurl }}" />
+    		{% for images in post.images limit:1 %}
+			<img src="{{ images.img }}" />
+			{% endfor %}
         	<h2>
           	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         	</h2>
