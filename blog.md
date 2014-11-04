@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Press
-permalink: /press/
+layout: blogs
+title: Blog
+permalink: /blog/
 ---
 
-press!
+blog!

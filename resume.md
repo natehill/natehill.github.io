@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 
-resume!
+[Available here](/files/resume-9-2014.pdf) as a pdf file.

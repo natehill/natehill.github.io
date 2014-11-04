@@ -49,3 +49,27 @@ border:none;
 	   -moz-box-shadow:none;
 	        box-shadow:none;
 }
+
+.custom-panel-height{
+min-height:284px;
+}
+
+.custom-no-overflow{
+display:block;
+height:284px;
+overflow:hidden;
+}
+
+.custom-no-overflow{
+margin-left: -15px;
+}
+
+.custom-no-overflow span.post-meta,
+.custom-no-overflow h2 a,
+.custom-no-overflow p{
+margin-left: 15px;
+}
+
+h2.custom-blogpost-sidebar{
+margin-top:2px;
+}
