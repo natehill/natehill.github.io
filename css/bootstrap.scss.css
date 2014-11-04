@@ -7,6 +7,9 @@
  /*
  custom
  */
+ 
+li{margin-bottom:4px;}
+
 .navbar{border-bottom: 3px solid #ccc;}
 
 a.navbar-brand {
