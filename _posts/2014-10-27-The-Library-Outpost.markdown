@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: proj
 title:  "The Library Outpost"
 date:   2014-10-29 10:27:34
 category: project

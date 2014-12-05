@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: proj
 title:  "DPLA Use Cases"
 date:   2014-10-30 10:27:34
 category: project
