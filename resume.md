@@ -8,7 +8,9 @@ permalink: /resume/
 
 ##Experience
 
-###Chattanooga Public Library, Deputy Director, 2012- present
+###Metropolitan New York Library Council, Executive Director, 2015- present
+
+###Chattanooga Public Library, Deputy Director, 2012- 2015
  
 * Provide leadership, strategy, and direction for an agile, innovative, and internationally recognized library system that serves a population of almost 170,000 people in eastern Tennessee.
 * Develop the annual operating budget of approximately $5.8 million for the library system, including a 3% funding increase for FY15 as a result of increased efficiencies, innovative new services, and the overall effective performance of the library.
