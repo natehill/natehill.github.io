@@ -4,11 +4,12 @@ title: Resume
 permalink: /resume/
 ---
 
-[Available here](/files/resume-9-2014.pdf) as a pdf file.
-
 ##Experience
 
-###Metropolitan New York Library Council, Executive Director, 2015- present
+###Executive Director
+Metropolitan New York Library Council
+New York, New York
+2015 - Present
 
 ###Chattanooga Public Library, Deputy Director, 2012- 2015
  
