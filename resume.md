@@ -4,62 +4,140 @@ title: Resume
 permalink: /resume/
 ---
 
-##Experience
+Experience
 
-###Executive Director
-
+Executive Director
 Metropolitan New York Library Council
 New York, New York
 2015 - Present
 
-###Chattanooga Public Library, Deputy Director, 2012- 2015
+The Metropolitan New York Library Council (METRO) is the largest of nine regional library councils in New York State, serving all the boroughs of New York City as well as Westchester County. METRO’s membership spans +/-250 libraries, archives, museums, non-profits, and others as organizational members, and also includes students, consultants, and others as individual members. The organization’s mission is to facilitate collaboration, build capacity, support innovation, and enhance resource sharing by connecting the efforts of the diverse membership.
+
+In my two-year tenure as Executive Director, I have:
+Diversified funding sources and grown revenue; am currently responsible for an annual operating budget of almost 3 million dollars
+Relocated and relaunched the organization: designed and built ‘599’, our new 8000 square foot studio in Midtown Manhattan
+Implemented new policies and bylaws, organizational structure, services and programs
+
  
-* Provide leadership, strategy, and direction for an agile, innovative, and internationally recognized library system that serves a population of almost 170,000 people in eastern Tennessee.
-* Develop the annual operating budget of approximately $5.8 million for the library system, including a 3% funding increase for FY15 as a result of increased efficiencies, innovative new services, and the overall effective performance of the library.
-* Scout and recruit world-class talent for an evolving, flexible library organization, resulting in agile, responsive service design as well as a library that is broadly recognized for its innovative projects and project teams.  Designate short-term cross-departmental project teams for rapid prototyping of new library services. 
-* Instigated and implemented The 4th Floor library space.  The 4th Floor is a civic laboratory, makerspace, and beta-space with a focus on information, design, technology, and the applied arts. The 4th Floor supports the production, connection, and sharing of knowledge by offering access to tools and instruction.  The transformation of Chattanooga Public Library, its new reputation as a leading institution in the public library field, and the shift in the community’s perception of what makes a library an indispensible resource, are all a direct result of this ongoing project.
-* Oversee and manage the daily operations of Digital Services, the 4th Floor Innovation Team, Technical Services, the Local History and Genealogy department, and other teams and divisions as needed.  Create new organizational structures and strategies frequently to respond to shifting priorities and customer needs.
-* Develop and direct strategic partnerships with the mayor’s office and other city departments, local and national foundations, as well as other community organizations.  Serve on boards and advisory groups of other local organizations with related missions; thus bringing library in as a collaborator and partner.
-* Approve media and communications that tell the library’s story, both to the library profession and to the community.  Frequently act as a public face for the library on local television, in the newspaper, in blogs and in magazines.  Write articles and other pieces to tell the library’s story. 
+Assistant Director
+Chattanooga Public Library
+Chattanooga, Tennessee
+2012 - 2015
 
-###San Jose Public Library, Web Librarian, 2009 - 2012
+The Chattanooga Public Library serves a population of 170,000 residents with one central library and three branch facilities. As a leader in Chattanooga, I helped this library transition out of obsolescence and obscurity to become a global source of inspiration and innovation for librarians and other knowledge workers.
 
-* Designed and implemented new public library website; migrated legacy content to open source platform. The site’s UI was successful and resulted in other public and academic libraries adapting or borrowing the style.
-* Developed and deployed ‘Scan Jose’, an award winning responsive mobile web application featuring the library’s local history content.  In addition, the same content was made available via a third party augmented reality platform.
+In my three-year tenure as Assistant Director, I:
+Designed, developed, and led The 4th Floor. The 4th Floor, formerly an unused attic, became a heavily trafficked public laboratory and educational facility with a focus on information, design, technology, and the applied arts. This project gained international attention, and was included in the Cooper Hewitt National Design Museums critically acclaimed exhibit “By The People: Designing a Better America”
+Raised over 300K in philanthropic contributions, including grants from the Knight Foundation, Mozilla Foundation, and Benwood Foundation.
+Led the implementation of a municipal open data portal hosted at the public library, with data featured as a library collection.
+Managed and oversaw technology projects for the library, including but not limited to recabling and network upgrades, a website redesign, and a catalog migration and upgrade.
 
-###Brooklyn Public Library, Branch Library Manager, Special Projects, Librarian 1999 - 2009
- 
-* Managed the Greenpoint Neighborhood Library; supervised a staff of 9 full time employees. Greenpoint is a busy, diverse urban neighborhood with a suitably busy library: in FY09 the library circulated 250K items and had a gate count of 290K visitors.
-* Served on the Community Needs Assessment and Strategic Planning team, coordinated and ran focus groups and other input incubators for multilingual populations across neighborhood libraries in Brooklyn. Prepared and published reports that determined library service delivery strategies for a population of 2.5 million people.
-* As a participant in the IMLS/Pratt Institute Public Urban Library Service Education (PULSE) program, earned the MLIS degree while rotating into different departments and locations across the Brooklyn Public Library. Over a tenure of almost ten years, held a variety of positions at nearly all of BPL’s 58 diverse branches.
+Web Librarian
+San Jose Public Library
+San Jose, California
+2009 - 2012
 
-##Board Appointments and Advisory Work
+The San Jose Public Library is a busy urban public library system in the heart of Silicon Valley with 24 branches serving a population of more than 1 million people. I was recruited to the library’s ‘Digital Futures’ team in 2009 to help them design and launch a new web presence after the library had separated itself from a citywide content management system.
 
-* Advisor, New York Architectural League / Center for an Urban Future Re-envisioning Branch Libraries project
-* Board Member, Chattanooga Enterprise Center <br/> Under the leadership of Mayors Andy Berke and Jim Coppinger, the Enterprise Center is addressing three issues: Bridging the digital divide, Building on Chattanooga’s gigabit-per-second infrastructure, and the creation of an innovation district.
-* Board Member, Causeway <br />Causeway is a Chattanooga-based non profit that provides support and resources to social and civic entrepreneurs who wish to improve the quality of life in Chattanooga.
+In my three-year tenure as a web librarian, I:
+Managed social media participation and blog content creation for the entire system
+Designed and implemented a website using an open source content management system
+Designed and launched a web-based mobile local history experience featuring historic photographs from the library’s California Collection
 
-##Grants, Awards, and Appointments
+Branch Library Manager, other roles
+Brooklyn Public Library
+Brooklyn, New York
+1999 - 2009
 
-* Formerly, Bill and Melinda Gates Foundation International Network of Emerging Library Innovators
-* Knight Foundation, 2013 Community Information Challenge grant
-* Benwood Foundation, Innovation Fund for 4th Floor project, Award in partnership with Engage3D to host “devdev”, a summer technology and code camp for teens
-* Digital Public Library of America, Co-Chair of Marketing and Outreach Committee
-* IMLS, Project Director, “National Digital Summer Learning”
-* Library Journal, “Mover and Shaker” award, 2012
-* IMLS and NEH, Grant review panelist
+The Brooklyn Public Library is the sixth largest public library system in the United States, serving more than 3 million people from 60 locations. I began my career in libraries as a Library Assistant at the Stone Avenue Branch, and over nearly a decade gained more responsibility and experience. Much of the work I do now remains grounded in lessons learned during these formative years.
 
-##Consulting Clients
+In nearly a decade at the Brooklyn Public Library I:
+Worked in more than 30 diverse communities across Brooklyn
+Participated in IMLS/Pratt Institute/Brooklyn Public Library “Public Urban Library Service Education” degree program; work study appointments in Neighborhood Services, Web Services, Government Relations, Marketing and Communications departments
+Designed and develop innovative “Library Outpost” service model, a flexible service design meant for temporary and storefront facilities
+Advisory Roles 
+Current
+New York State Board of Regents Advisory Council on Libraries
+Advisory Board, Memory Lab Network
+Advisory Board, Data Reuse Project
 
-* Harvard University, Berkman Center for Internet and Society, Use case scenarios for Digital Public Library of America planning process
-* Public Library Association (PLA), Blog Manager
-* Influx Web UX Consulting, “One Pager” open source web page template for public libraries
-* County of Los Angeles Public Library, CA, Library future visioning workshop
-* The Dayton Metro Library, OH, Branding, UX, and futures workshops for $186 million building project
 
-##Education
+Past
+Advisory Board, Pratt School of Information	
+Advisor, New York Architectural League / Center for an Urban Future, Re-envisioning Branch Libraries project 
+Board Member, Chattanooga Enterprise Center				
+Board Member, Causeway (Chattanooga)
+Selected Grants and Awards
+2017, NYC Mayor’s Office of Technology and Innovation (MOTI)
+NYC Digital Safety: Privacy and Security 
 
-* Pratt Institute, New York, New York 2008 MLIS
-* Skidmore College, Saratoga Springs, New York 1997 BS, Studio Art
+2016, Mozilla Foundation
+Web Literacy for Libraries
+
+2013, James L. Knight Foundation
+Community Information Challenge Grant: Chattanooga Open Data Portal
+
+2011-2012, Bill and Melinda Gates Foundation
+International Network of Emerging Library Innovators
+
+2011 - 2012, Benwood Foundation
+Innovation Fund for 4th Floor project, Chattanooga Public Library
+Summer technology and code camp for teens, Chattanooga Public Library
+
+2012, Library Journal “Mover and Shaker” award
+
+2009, IMLS Planning Grant, “National Digital Summer Learning”	
+Selected Presentations and Workshops
+2017, Gensler / Studio 53
+Public Knowledge: Reimagining the Public Library
+
+2017, Cooper Hewitt Museum
+Beyond Books: Redefining the Civic Role of Public Libraries
+
+2016, Simmons College / Harvard metaLab
+Library Test Kitchen
+
+2015, National Library of Colombia, Bogota Colombia
+Digital Citizenship
+
+2014, Code for America Summit, San Francisco CA
+The Public Library and Open Government Data
+
+2014, Stavros Niarchos Foundation International Conference in Philanthropy, Athens Greece
+Culture and Education Transforming our Future
+
+2013, The Future of Libraries Conference, Vancouver Canada
+Transforming Public Libraries
+
+2013, LITA Forum, Louisville KY
+Keynote: Transforming the Library in Chattanooga TN
+
+ 2013, Carnegie UK Trust, Dunfermline Scotland
+Chattanooga Public Library’s 4th Floor and the Future of Libraries
+
+2013, NextLibrary Conference, Aarhus Denmark
+Iterative Service Design & Creative Citizenship
+
+2012, Library Journal Directors Summit, Los Angeles CA
+The 4th Floor of Chattanooga Public Library
+
+ 2012, SXSW Interactive, Austin, TX
+Making Stories: Libraries and Community Publishing
+
+2011, Digital Library Federation Forum, Baltimore MD
+What a National Digital Library Means For Public Libraries
+
+2009, NextLibrary Conference, Aarhus Denmark
+The Library Outpost
+
+Education
+Pratt Institute, New York, New York 
+Masters of Library and information Science, 2008
+
+Skidmore College, Saratoga Springs, New York 
+BS, Studio Art, 1997
+
+
+
 
 
