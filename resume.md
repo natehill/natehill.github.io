@@ -137,6 +137,43 @@ What a National Digital Library Means For Public Libraries
 * 2009, NextLibrary Conference, Aarhus Denmark  
 The Library Outpost
 
+### Publications
+
+* Next Century Cities  
+Shaping the 21st Century Public Library: Chattanooga’s Story
+
+* Transcript, Code for America Summit 2015  
+Chattanooga Public Library and Open Data
+
+* Urban Omnibus  
+Precedents for Experimentation: Talking Libraries with Shannon Mattern and Nate Hill
+
+* Medium  
+Public Libraries | Multiple Solutions.
+
+* Chorus ‘Gigatown’ Contest  
+The Public Library in the Gigabit Community: Chattanooga TN
+
+### Consulting Clients
+
+* Multonomah County Library, OR  
+Service prototyping and design workshop
+
+* Harvard University, Berkman Center for Internet and Society  
+Use case scenarios for Digital Public Library of America planning process
+
+* Public Library Association (PLA)  
+Blog Manager
+
+* Influx Web UX Consulting  
+“One Pager” open source web page template for public libraries
+
+* County of Los Angeles Public Library, CA  
+Library future visioning workshop
+
+* The Dayton Metro Library, OH  
+Branding, UX, and futures workshops for $186 million building project
+
 ### Education
 Pratt Institute, New York, New York   
 Masters of Library and information Science, 2008
