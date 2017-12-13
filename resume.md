@@ -6,6 +6,7 @@ permalink: /resume/
 
 ### Experience
 
+
 #### Executive Director
 Metropolitan New York Library Council  
 New York, New York  
@@ -32,6 +33,7 @@ In my three-year tenure as Assistant Director, I:
 * Led the implementation of a municipal open data portal hosted at the public library, with data featured as a library collection.
 * Managed and oversaw technology projects for the library, including but not limited to recabling and network upgrades, a website redesign, and a catalog migration and upgrade.
 
+
 #### Web Librarian
 San Jose Public Library  
 San Jose, California  
@@ -45,9 +47,9 @@ In my three-year tenure as a web librarian, I:
 * Designed and launched a web-based mobile local history experience featuring historic photographs from the library’s California Collection
 
 #### Branch Library Manager, other roles
-Brooklyn Public Library
-Brooklyn, New York
-1999 - 2009
+Brooklyn Public Library  
+Brooklyn, New York  
+1999 - 2009  
 
 The Brooklyn Public Library is the sixth largest public library system in the United States, serving more than 3 million people from 60 locations. I began my career in libraries as a Library Assistant at the Stone Avenue Branch, and over nearly a decade gained more responsibility and experience. Much of the work I do now remains grounded in lessons learned during these formative years.
 
@@ -55,6 +57,7 @@ In nearly a decade at the Brooklyn Public Library I:
 * Worked in more than 30 diverse communities across Brooklyn
 * Participated in IMLS/Pratt Institute/Brooklyn Public Library “Public Urban Library Service Education” degree program; work study appointments in Neighborhood Services, Web Services, Government Relations, Marketing and Communications departments
 * Designed and developed innovative “Library Outpost” service model, a flexible service design meant for temporary and storefront facilities
+
 
 ### Advisory Roles 
 #### Current
@@ -67,6 +70,7 @@ In nearly a decade at the Brooklyn Public Library I:
 * Advisor, New York Architectural League / Center for an Urban Future, Re-envisioning Branch Libraries project 
 * Board Member, Chattanooga Enterprise Center				
 * Board Member, Causeway (Chattanooga)
+
 
 ### Selected Grants and Awards
 * 2017, NYC Mayor’s Office of Technology and Innovation (MOTI)  
@@ -88,6 +92,7 @@ Summer technology and code camp for teens, Chattanooga Public Library
 * 2012, Library Journal “Mover and Shaker” award
 
 * 2009, IMLS Planning Grant, “National Digital Summer Learning”	
+
 
 ### Selected Presentations and Workshops
 * 2017, Gensler / Studio 53  
