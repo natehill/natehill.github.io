@@ -7,6 +7,7 @@ permalink: /resume/
 ##Experience
 
 ###Executive Director
+
 Metropolitan New York Library Council
 New York, New York
 2015 - Present
