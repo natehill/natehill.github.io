@@ -7,8 +7,11 @@ permalink: /resume/
 Experience
 
 Executive Director
+
 Metropolitan New York Library Council
+
 New York, New York
+
 2015 - Present
 
 The Metropolitan New York Library Council (METRO) is the largest of nine regional library councils in New York State, serving all the boroughs of New York City as well as Westchester County. METRO’s membership spans +/-250 libraries, archives, museums, non-profits, and others as organizational members, and also includes students, consultants, and others as individual members. The organization’s mission is to facilitate collaboration, build capacity, support innovation, and enhance resource sharing by connecting the efforts of the diverse membership.
