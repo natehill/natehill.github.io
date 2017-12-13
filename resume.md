@@ -7,7 +7,7 @@ permalink: /resume/
 ### Experience
 
 
-#### Executive Director
+**Executive Director**  
 Metropolitan New York Library Council  
 New York, New York  
 2015 - Present  
@@ -20,7 +20,7 @@ In my two-year tenure as Executive Director, I have:
 * Implemented new policies and bylaws, organizational structure, services and programs
 
  
-#### Assistant Director
+**Assistant Director**  
 Chattanooga Public Library  
 Chattanooga, Tennessee  
 2012 - 2015  
@@ -34,7 +34,7 @@ In my three-year tenure as Assistant Director, I:
 * Managed and oversaw technology projects for the library, including but not limited to recabling and network upgrades, a website redesign, and a catalog migration and upgrade.
 
 
-#### Web Librarian
+**Web Librarian**  
 San Jose Public Library  
 San Jose, California  
 2009 - 2012  
@@ -46,7 +46,7 @@ In my three-year tenure as a web librarian, I:
 * Designed and implemented a website using an open source content management system
 * Designed and launched a web-based mobile local history experience featuring historic photographs from the library’s California Collection
 
-#### Branch Library Manager, other roles
+**Branch Library Manager, other roles**  
 Brooklyn Public Library  
 Brooklyn, New York  
 1999 - 2009  
