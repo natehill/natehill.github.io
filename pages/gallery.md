@@ -1,6 +1,6 @@
 ---
 layout: gallery-page
-title: Painting
+title: Nate Hill - Painting
 permalink: /painting/
 collection: qatar
 facet_by: object_type
