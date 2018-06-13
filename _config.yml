@@ -29,10 +29,10 @@ collections_dir:  collections
 
 # menu settings
 menu:
-  - label: Painting
-    link: /painting/
   - label: Projects
     link: /projects/
+  - label: Painting
+    link: /painting/
   - label: Presentations
     link: /presentations/
   - label: Resume
