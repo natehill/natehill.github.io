@@ -38,7 +38,7 @@ The Brooklyn Public Library is the sixth largest public library system in the Un
 
 ## Advisory Roles
 **Current**  
-[New York State Board of Regents Advisory Council on Libraries](http://www.nysl.nysed.gov/libdev/rac/)  
+Member, [New York State Board of Regents Advisory Council on Libraries](http://www.nysl.nysed.gov/libdev/rac/)  
 Vice Chair, [Empire State Library Network](https://www.esln.org/)  
 Advisory Board, [OFBYFORALL](https://www.ofbyforall.org/)  
 Advisor / Facilitator [Reading List for Life](http://readinglistforlife.org/)/[Open Syallabus Project](https://opensyllabusproject.org/)  
@@ -49,4 +49,4 @@ Advisory Board, [Data Reuse Project](https://www.imls.gov/grants/awarded/lg-96-1
 Advisory Board, [Pratt School of Information](https://www.pratt.edu/academics/information/)   
 Advisor, New York Architectural League / Center for an Urban Future, [Re-envisioning Branch Libraries](https://nycfuture.org/research/re-envisioning-new-yorks-branch-libraries) project    
 Board Member, [Chattanooga Enterprise Center](https://www.theenterprisectr.org/)  
-Board Member, [Causeway (Chattanooga, TN)](http://www.causeway.org/) 
+Board Member, [Causeway (Chattanooga, TN)](http://www.causeway.org/)
