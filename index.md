@@ -5,8 +5,6 @@
 layout: home
 ---
 
-# Hello.
-
 It is nice that you are here.   
 Have a look around.  
 After that, if you'd like to get in touch with me, drop me an email at nathanielhill@gmail.com.
