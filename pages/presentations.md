@@ -10,8 +10,9 @@ Fall 2018, Next Library, Berlin DE
 Frogs, Redwoods, and Dandelions: Library Service Design and Ecomimicry
 
 2018, Brown Institute for Media Innovation, Stanford University  
-Public Record Under Threat: News and the Archive in the Age of Digital Distribution  
-[video](https://www.youtube.com/watch?v=TW0jSjYupvU)
+Public Record Under Threat: News and the Archive in the Age of Digital Distribution   
+[report](https://academiccommons.columbia.edu/catalog/ac:6q573n5tcn)  
+[video](https://www.youtube.com/watch?v=TW0jSjYupvU)  
 
 2018, Berkman Klein Center, Harvard University  
 Media Migration, Signage, and Smoked Fish: the Library Consortium as Studio, Platform, and Metacommunity  
