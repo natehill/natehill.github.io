@@ -6,7 +6,7 @@ layout: home
 ---
 # Hello.
 
-It is nice that you are here.
+It is nice that you are here.  
 I am the Executive Director of [METRO / 599](http://metro.org),  
 and I am an Affiliate at the [Berkman Klein Center for Internet and Society](http://cyber.harvard.edu/) at Harvard University.    
 Have a look around!  
