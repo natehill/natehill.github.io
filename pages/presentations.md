@@ -9,8 +9,8 @@ permalink: /presentations/
 Achipelago.nyc : A New Open Repository Architecture  
 [slides](https://docs.google.com/presentation/d/1HYJJ49eDeQPXQj5Jl9esxQ3yabV28m0cH__eRhwAmqM/edit#slide=id.g596785697b_0_95)
 
-2019, Oslo Metropolitan University, Norway . 
-The NYC Digital Safety Programs . 
+2019, Oslo Metropolitan University, Norway  
+The NYC Digital Safety Programs  
 [slides](https://docs.google.com/presentation/d/1W7uLAuMh74bcT3k00pJZCP1elyoCXMcb_kqsmUKemYk/edit#slide=id.g517d0af92f_0_48)
 
 Fall 2018, Next Library, Berlin DE  
