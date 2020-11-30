@@ -22,13 +22,18 @@
 
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
+      img.sold{
+        opacity: 0.4;
+      }
+
+      .sold-sign{
+        position: absolute;
+        top:90%;
+        left:50%;
+      }
+
+      .relative{
+        position: relative;
       }
 
       @media (min-width: 768px) {
@@ -87,8 +92,11 @@
 
       <div class="row">
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <a href="bowl-001-walnut.html"><img src="assets/img/001_2_walnut.jpg" width="100%" height="100%"></a>
+          <div class="card mb-4 shadow-sm relative">
+            <a href="bowl-001-walnut.html"><img src="assets/img/001_2_walnut.jpg" class="sold" width="100%" height="100%"></a>
+            <div class="sold-sign">
+              <p class="card-text text-muted">sold</p>
+            </div>
             <!--
             <div class="card-body">
               <p class="card-text text-center">Spalted Maple Bowls</p>
@@ -123,8 +131,11 @@
 
       <div class="row">
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <a href="bowl-004-beech.html"><img src="assets/img/004_1_beech.jpg" width="100%" height="100%"></a>
+          <div class="card mb-4 shadow-sm relative">
+            <a href="bowl-004-beech.html"><img src="assets/img/004_1_beech.jpg" class="sold" width="100%" height="100%"></a>
+            <div class="sold-sign">
+              <p class="card-text text-muted">sold</p>
+            </div>
             <!--
             <div class="card-body">
               <p class="card-text text-center">Spalted Maple Bowls</p>
@@ -159,8 +170,11 @@
 
       <div class="row">
         <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <a href="bowl-007-spaltedmaple.html"><img src="assets/img/007_1_spaltedmaple.jpg" width="100%" height="100%"></a>
+          <div class="card mb-4 shadow-sm relative">
+            <a href="bowl-007-spaltedmaple.html"><img src="assets/img/007_1_spaltedmaple.jpg" class="sold" width="100%" height="100%"></a>
+            <div class="sold-sign">
+              <p class="card-text text-muted">sold</p>
+            </div>
             <!--
             <div class="card-body">
               <p class="card-text text-center">Spalted Maple Bowls</p>
@@ -205,3 +219,4 @@
 <script src="js/custom.js"></script>
 </body>
 </html>
+
