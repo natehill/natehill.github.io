@@ -1,4 +1,4 @@
-let branchLength = 290;
+let branchLength = 310;
 let angle = Math.PI / 4;
 let angleTwo = angle * 2;
 
@@ -12,7 +12,7 @@ function draw(){
   background('white');
   stroke('black');
   strokeWeight(1);
-  translate(windowWidth / 2, windowHeight);
+  translate(width / 2, height);
   push();
   
   let turtleString = "B";
