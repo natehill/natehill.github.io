@@ -1,0 +1,84 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Nate Hill</title>
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+
+<link rel="shortcut icon" href="assets/img/favicons/logo.png" type="image/png">
+
+    <!-- Custom styles for this template -->
+  </head>
+  <body>
+<header>
+  <div class="navbar navbar-light bg-light">
+    <div class="container d-flex justify-content-between">
+      <div class="col-md-6">
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <img src="assets/favicons/logo.png">
+      </a>
+    </div>
+    <div class="col-md-6 text-right">
+      <button class="navbar-toggler menu-toggle" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="container">
+     <div class="row aboutnate"  style="display:none">
+       <div class="col-md-12 py-4">
+         <h4 class="text-muted">Hello!</h4>
+         <p class="text-muted">I'm Nate Hill.</br>
+         Projects inspired by the algorithmic botany class at SFPC
+           </p>
+       </div>
+     </div>
+   </div>
+
+  </div>
+
+</header>
+
+<main role="main">
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+            <!--row-->
+      
+      <div class="row">
+        <div class="col-md-12">
+          <h2>This</h2>
+          <p>that</p>
+          <p>more</p>
+        </div>
+        </div>
+
+    
+      <!--row-->
+      
+      <div class="row">
+        <div class="col-md-12">
+          <h2>This</h2>
+          <p>that</p>
+          <p>more</p>
+        </div>
+        </div>
+
+
+</main>
+
+<footer class="text-muted">
+
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
