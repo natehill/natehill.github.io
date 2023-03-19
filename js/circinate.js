@@ -1,4 +1,4 @@
-let branchLength = 180;
+let branchLength = 290;
 let angle = Math.PI / 4;
 let angleTwo = angle * 2;
 
