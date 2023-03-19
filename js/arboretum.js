@@ -5,10 +5,6 @@ function setup() {
   resetSketch();
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
 function resetSketch(){
   button = createButton('click me');
   button.position(windowWidth / 2, windowHeight / 2);
