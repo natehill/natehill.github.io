@@ -7,7 +7,7 @@ function setup() {
 
 function resetSketch(){
   let arbButton = createButton('redraw');
-  arbButton.position(width / 2, 120);
+  arbButton.position(width / 2, 135);
   arbButton.class('arbButtonClass');
   arbButton.mousePressed(resetSketch);
   let turtleString = "B";  
