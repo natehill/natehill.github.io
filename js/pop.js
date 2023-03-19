@@ -5,7 +5,8 @@ let branchLength = 35
 let angle = Math.PI / 4
 
 function setup() {
-  createCanvas(1000,1000);
+  let cnv = createCanvas(windowWidth, windowHeight);
+  cnv.id("pop");
   stroke(color(94, 64, 41));
   translate(width / 2, height +550);
   background(color(42, 73, 247));  
@@ -22,8 +23,7 @@ function setup() {
       leafArray.push(leafSize)
     }
   }
-  
-  //print(turtleString);
+
   renderString(turtleString);
   
 }
