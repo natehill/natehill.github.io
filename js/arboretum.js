@@ -20,7 +20,7 @@ function resetSketch(){
 }
 
 
-let branchLength = 30;
+let branchLength = 80;
 let angle = Math.PI / 4;
 
 
