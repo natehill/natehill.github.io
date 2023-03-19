@@ -1,16 +1,22 @@
 function setup() {
   createCanvas(800,800);
-  background('white');
-  
+  translate(width / 2, height / 2);
+  resetSketch();
+}
+
+function resetSketch(){
+  button = createButton('click me');
+  button.position(0, 0);
+  button.mousePressed(resetSketch);
   let turtleString = "B";  
   for(let i = 0; i < 9; i++){
     turtleString = turtleString.replaceAll("B", "F[+B][-B]-B-B");
   }
-  
-  stroke('black');
-  translate(width / 2, height / 2);
+  background('white');
+  stroke('black');  
   renderString(turtleString);
 }
+
 
 let branchLength = 30;
 let angle = Math.PI / 4;
