@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(800,800);
+  let cnv = createCanvas(800,800);
+  cnv.id("arboretum");
   translate(width / 2, height / 2);
   resetSketch();
 }
