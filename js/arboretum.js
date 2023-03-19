@@ -1,8 +1,12 @@
 function setup() {
   let cnv = createCanvas(windowWidth, windowHeight);
   cnv.id("arboretum");
-  translate(width / 2, height / 2);
+  translate(windowWidth / 2, windowHeight / 2);
   resetSketch();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function resetSketch(){
