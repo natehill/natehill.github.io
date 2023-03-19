@@ -3,7 +3,7 @@ let angle = Math.PI / 4;
 let angleTwo = angle * 2;
 
 function setup() {
-  let cnv = createCanvas(windowHeight, windowWidth);
+  let cnv = createCanvas(windowWidth, windowHeight;
   cnv.id('circinate');
 }
 
@@ -12,7 +12,7 @@ function draw(){
   background('white');
   stroke('black');
   strokeWeight(1);
-  translate(width / 2, height);
+  translate(windowWidth / 2, windowHeight);
   push();
   
   let turtleString = "B";
