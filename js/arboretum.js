@@ -6,9 +6,10 @@ function setup() {
 }
 
 function resetSketch(){
-  button = createButton('click me');
-  button.position(windowWidth / 2, 100);
-  button.mousePressed(resetSketch);
+  let arbButton = createButton('redraw');
+  arbButton.position(width / 2, height / 2);
+  arbButton.class('arbButtonClass');
+  arbButton.mousePressed(resetSketch);
   let turtleString = "B";  
   for(let i = 0; i < 9; i++){
     turtleString = turtleString.replaceAll("B", "F[+B][-B]-B-B");
