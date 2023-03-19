@@ -1,5 +1,5 @@
 function setup() {
-  let cnv = createCanvas(windowWidth, 100);
+  let cnv = createCanvas(windowWidth, windowHeight);
   cnv.id("arboretum");
   translate(width / 2, height / 2);
   resetSketch();
@@ -7,7 +7,7 @@ function setup() {
 
 function resetSketch(){
   button = createButton('click me');
-  button.position(windowWidth / 2, windowHeight);
+  button.position(windowWidth / 2, 800);
   button.mousePressed(resetSketch);
   let turtleString = "B";  
   for(let i = 0; i < 9; i++){
