@@ -3,7 +3,8 @@ let angle = Math.PI / 4;
 let angleTwo = angle * 2;
 
 function setup() {
-  createCanvas(600,600);
+  let cnv = createCanvas(windowHeight, windowWidth);
+  cnv.id('circinate');
 }
 
 function draw(){
