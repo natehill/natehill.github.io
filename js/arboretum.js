@@ -7,7 +7,7 @@ function setup() {
 
 function resetSketch(){
   button = createButton('click me');
-  button.position(0, 0);
+  button.position(width / 2, height / 2);
   button.mousePressed(resetSketch);
   let turtleString = "B";  
   for(let i = 0; i < 9; i++){
