@@ -12,7 +12,7 @@ function draw(){
   background('white');
   stroke('black');
   strokeWeight(1);
-  translate(windowWidth / 2, windowHeight);
+  //translate(windowWidth / 2, windowHeight);
   push();
   
   let turtleString = "B";
