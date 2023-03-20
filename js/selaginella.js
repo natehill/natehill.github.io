@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(1000, 1000);
+  let cnv = createCanvas(windowWidth, windowHeight);
+  cnv.id("selaginella");
   background('white');
   
   let turtleString = "B";
