@@ -16,29 +16,37 @@
     <!-- Custom styles for this template -->
   </head>
   <style>
-  main {
- background-image: url("/img/Ocean.jpg");
- background-color: #cccccc;
+
+
+canvas {
+  background-image: url("img/Ocean.jpg");
+  background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
   </style>
+
   <body>
 <header>
-  
+
   <div class="navbar navbar-light bg-light">
     <div class="container d-flex justify-content-between">
-      
+
       <div class="col-md-6">
       <a href="index.html" class="navbar-brand d-flex align-items-center">
         <img src="assets/favicons/logo.png">
       </a>
       </div>
-      
+
     <div class="col-md-6 text-right">
       <button class="navbar-toggler menu-toggle" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
       </button>
     </div>
-      
+
     <div class="container">
      <div class="row aboutnate"  style="display:none">
        <div class="col-md-12 py-4">
@@ -47,7 +55,7 @@
        </div>
      </div>
    </div>
-      
+
       <div class="container">
     <div class="row">
     <div class="col-md-12 py-4">
@@ -56,14 +64,20 @@
      </div>
     </div>
      </div>
-    
+
   </div>
   </div>
 
 </header>
 
-<main role="main">  
-   <script src="js/monument.js"></script>          
+<main role="main">
+  <div class="container">
+   <div class="row">
+     <div class="col-md-12 py-4">
+       <script src="js/monument.js"></script>
+     </div>
+   </div>
+ </div>
 </main>
 
 <footer class="text-muted">
