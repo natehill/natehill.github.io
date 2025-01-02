@@ -1,6 +1,6 @@
 function setup() {
   let div = createDiv('').id('hello-container');
-  div.html('<uL><li><img src="assets/favicons/logo-invert.png"></li><li><h2>Nate Hill</h2></li><li><a href="sculpture.html">Sculpture</a></li><li><a href="painting.html">Painting</a></li><li><a href="projects.html">Other Projects</a></li><li><a href="work.html">Work</a></li></uL><ul><li><a href="https://www.instagram.com/natehillnatehill/?hl=en" target="blank">Instagram</a></li><li>nathanielhill at gmail</li></ul>');
+  div.html('<uL><li><img src="assets/favicons/logo-invert.png"></li><li><h2>Nate Hill</h2></li><li><a href="sculpture.html">Sculpture</a></li><li><a href="painting.html">Painting</a></li><li><a href="work.html">Work</a></li><li><a href="projects.html">Miscellany</a></li></uL><ul><li><a href="https://www.instagram.com/natehillnatehill/?hl=en" target="blank">Instagram</a></li><li>nathanielhill at gmail</li></ul>');
   let cnv = createCanvas(windowWidth, windowHeight);
   cnv.id("arboretum");
   translate(width / 2, height / 6);
