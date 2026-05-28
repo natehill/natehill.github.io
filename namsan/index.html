@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Field Notes, Seoul, May 2026</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+            crossorigin="anonymous"></script>
+   <script type="text/javascript" src="./lib/turn.min.js"></script>
+   <link rel="preconnect" href="https://googleapis.com">
+<link rel="preconnect" href="https://gstatic.com" crossorigin>
+<link href="https://googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <style type="text/css">
+   body{
+   	background:rgb(250, 233, 205);
+    display: grid;
+    place-content: center;
+   }
+   h1, body{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+   }
+   #album{
+   	width:1100px;
+   	height:360px;
+    background:rgb(0, 254, 45);
+   }
+   /*#album .turn-page{
+   	background-color:#ccc;
+    background-repeat: no-repeat;
+    background-size: contain;
+   }
+  
+   #album .page-wrapper{
+     background-repeat: no-repeat;
+     background-size: contain;
+   }
+    */
+   </style>
+</head>
+<body>
+
+      <ol>
+      <li>Name something</li>
+      <li>Describe the relationship between two things</li>
+      <li>Make an agreement with someone</li>
+      <li>Interrogate the unknown</li>
+      <li>Make your own prompt</li>
+    </ol>
+    
+
+    </p>
+    <div id="album">
+      <div></div> 
+    </div>
+    
+    <script>
+
+
+
+
+        $(document).ready(function () {
+          console.log('doc ready');
+          $('#album').turn({
+            display: 'double',
+            acceleration: true,
+            gradients: !$.isTouch,
+            elevation: 50,
+            width: 1100,
+            height: 360,
+          });
+
+          $(window).bind('keydown', function (e) {
+
+            if (e.keyCode == 37)
+              $('#album').turn('previous');
+            else if (e.keyCode == 39)
+              $('#album').turn('next');
+
+          });
+          fetch('./images/images.txt')
+            .then(response => response.text())
+            .then(data => {
+                 const lines = data.split(/\r?\n/);
+                 const cleanLines = lines.map(line => line.trim());
+                 var page = 0;
+                 for (const value of cleanLines.values()) {
+                  if (value != "") {
+                    page = page + 1;
+                    const url = "./images/"+value;
+                    var element = $("<div />", {"class": "p"+page}).html("").css("background-image", "url("+url+")").css("background-size", "contain");
+                    $("#album").turn("addPage", element);
+                  }
+                 }
+
+
+              }
+            )
+            .catch(error => console.error('Error reading file:', error));
+        });
+
+    </script>
+</body>
