@@ -1,116 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library Field Notes, Seoul, May 2026</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
-            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
-            crossorigin="anonymous"></script>
-   <script type="text/javascript" src="./lib/turn.min.js"></script>
-   <link rel="preconnect" href="https://googleapis.com">
-<link rel="preconnect" href="https://gstatic.com" crossorigin>
-<link href="https://googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-   <style type="text/css">
-   body{
-   	background:rgb(250, 233, 205);
-    display: grid;
-    place-content: center;
-   }
-   h1, body{
-    font-family: 'Poppins', sans-serif;
-    font-size: larger;
-   }
-   #album{
-   	width:1100px;
-   	height:360px;
-    background:rgb(0, 254, 45);
-   }
-  #album .turn-page{
-   	background-color:#ccc;
-    background-repeat: no-repeat;
-    background-size: contain;
-   }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nate's album May 2026</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./lib/turn.min.js"></script>
+  <style type="text/css">
+    body{
+      background:white;
+    }
+    #centered_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: auto;
+      position:relative;
+      -webkit-transition:margin-left 0.1s ease-in-out;
+      -moz-transition:margin-left 0.1s ease-in-out;
+      -o-transition:margin-left 0.1s ease-in-out;
+      -ms-transition:margin-left 0.1s ease-in-out;
+      transition:margin-left 0.1s ease-in-out;
+    }
+    #album {
+      width:0;
+      height:0;
+      display: block;
+      -webkit-transition:margin-left 0.2s ease-in-out;
+      -moz-transition:margin-left 0.2s ease-in-out;
+      -o-transition:margin-left 0.2s ease-in-out;
+      -ms-transition:margin-left 0.2s ease-in-out;
+      transition:margin-left 0.2s ease-in-out;
+    }
+    #album .turn-page{
+      background-color:#ccc;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    #album .page-wrapper{
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
   
-   #album .page-wrapper{
-     background-repeat: no-repeat;
-     background-size: contain;
-   }
+    </style>
+  </head>
+  <body>
 
-   </style>
-</head>
-<body>
-
-  <div class="container d-flex"> 
-    <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8">
-          <div id="album">
-            <div></div> 
-          </div>
-        </div>
-        <div class="col-md-8">
-        </div>
+    <h1></h1>
+    <div id="centered_container">
+      <div id="album">
+        <div></div> 
+      </div>
     </div>
-  </div>   
-<!--
-      <ol>
-      <li>Name something</li>
-      <li>Describe the relationship between two things</li>
-      <li>Make an agreement with someone</li>
-      <li>Interrogate the unknown</li>
-      <li>Make your own prompt</li>
-    </ol>
- -->   
-
-
+    
     <script>
-
-
-
-
-        $(document).ready(function () {
-          console.log('doc ready');
-          $('#album').turn({
-            display: 'double',
-            acceleration: true,
-            gradients: !$.isTouch,
-            elevation: 50,
-            width: 1100,
-            height: 360,
-          });
-
-          $(window).bind('keydown', function (e) {
-
-            if (e.keyCode == 37)
-              $('#album').turn('previous');
-            else if (e.keyCode == 39)
-              $('#album').turn('next');
-
-          });
-          fetch('./images/images.txt')
-            .then(response => response.text())
-            .then(data => {
-                 const lines = data.split(/\r?\n/);
-                 const cleanLines = lines.map(line => line.trim());
-                 var page = 0;
-                 for (const value of cleanLines.values()) {
-                  if (value != "") {
-                    page = page + 1;
-                    const url = "./images/"+value;
-                    var element = $("<div />", {"class": "p"+page}).html("").css("background-image", "url("+url+")").css("background-size", "contain");
-                    $("#album").turn("addPage", element);
-                  }
-                 }
-
-
-              }
-            )
-            .catch(error => console.error('Error reading file:', error));
+      // Modify to FIT proportions of images.
+      var max_width = 1100;
+      var max_height = 360;
+      
+      const targetElement = $('#album')[0];
+      var lastLeftMargin = $("#album").css("marginLeft");
+      
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          if (mutation.type === 'attributes') {
+            console.log('Album style changed!', $(mutation.target).attr('style'));
+            const currentLeftMargin =  mutation.target.style.marginLeft
+            console.log('currentLeftMargin from target!', currentLeftMargin);
+            if (currentLeftMargin != lastLeftMargin ) {
+              $("#centered_container").css({"marginLeft": currentLeftMargin});
+              lastLeftMargin = currentLeftMargin;
+            }
+              
+          
+          }
         });
+      });
 
+      observer.observe(targetElement, {
+        attributes: true,
+        attributeFilter: ['style'] 
+      });
+      
+       
+      $(document).ready(function () {
+        console.log('doc ready');
+        var lastWidth = window.innerWidth;
+        var display_mode = 'double'
+        if (lastWidth <= 480) {
+          display_mode = 'single'
+        }
+        $('#album').turn({
+          display: display_mode,
+          acceleration: true,
+          gradients: !$.isTouch,
+          shadows: $.isTouch,
+          elevation: 50,
+          width: Math.min(lastWidth,max_width),
+          height: max_height,
+          autoCenter: true,
+          when: {
+            turning: function(e, page, view) {
+              var album = $(this);
+              album.turn('center');
+            },
+          }
+        });
+        window.addEventListener('resize', () => {
+          if (window.innerWidth !== lastWidth) {
+            lastWidth = window.innerWidth;
+            console.log(lastWidth);
+            if (lastWidth <= 480) {
+              $('#album').turn("display", "single");
+            }
+            else {
+              $('#album').turn("display", "double");
+            }
+            // Runs on every window change.
+            // Size is set proportionally.
+            let new_width =  Math.min(lastWidth,max_width);
+            let new_height = max_height / (max_width/new_width);
+            $('#album').turn("size", new_width, new_height);
+          }
+        });
+        // Runs only first time.
+        let new_width =  Math.min(lastWidth,max_width);
+        let new_height = max_height / (max_width/new_width);
+        $('#album').turn("size", new_width, max_height);
+
+        $(window).bind('keydown', function (e) {
+
+          if (e.keyCode == 37)
+            $('#album').turn('previous');
+          else if (e.keyCode == 39)
+            $('#album').turn('next');
+
+        });
+        fetch('./images/images.txt')
+        .then(response => response.text())
+        .then(data => {
+          const lines = data.split(/\r?\n/);
+          const cleanLines = lines.map(line => line.trim());
+          var page = 0;
+          for (const value of cleanLines.values()) {
+            if (value != "") {
+              page = page + 1;
+              const url = "./images/"+value;
+              var element = $("<div />", {"class": "p"+page}).html("").css("background-image", "url("+url+")").css("background-size", "contain").css("background-repeat","no-repeat");
+
+              $("#album").turn("addPage", element);
+            }
+          }
+
+
+        }
+      )
+      .catch(error => console.error('Error reading file:', error));
+    });
     </script>
-</body>
+  </body>
