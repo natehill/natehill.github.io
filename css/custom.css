@@ -1,5 +1,5 @@
 
-
+/*
 #hello-container ul {
     padding: 0;
     list-style-type: none;
@@ -41,19 +41,9 @@
     #hello-container ul {
         color:white;
     }
-    
-    
-    
-    h1, h2, h3, h4, h5, p, ul{
-     font-family: 'Bitter', serif;
-    }
-    
-    #main-text-container h2{
+
+        #main-text-container h2{
         padding-top:22px;
-        padding-bottom:22px;
-    }
-    
-    #hello-container img {
         padding-bottom:22px;
     }
     
@@ -68,10 +58,33 @@
         padding-bottom:18px;
     }
     
+    */
+    
+    
+    h1, h2, h3, h4, h5, p, ul, ol{
+     font-family: 'Bitter', serif;
+    }
+
+    a h1{color:black;}
+
+    ul ul, ol{margin-left: 10px;}
+    
+    
     .card p{
         padding-top:10px;
         padding-left:10px;
         padding-right:10px;
     }
-    
+
+    img.square-crop {
+        width: 100%;             /* Fills the width of its container */
+        aspect-ratio: 1 / 1;     /* Forces the height to equal the width */
+        object-fit: cover;       /* Crops the excess image without distortion */
+        object-position: center; /* Centers the crop area (optional) */
+      }
+
+      .navbar-toggler-icon{
+        color:black;
+      }
+
     
