@@ -82,6 +82,9 @@
         object-fit: cover;       /* Crops the excess image without distortion */
         object-position: center; /* Centers the crop area (optional) */
       }
+      .navbar{
+        background-color:#F5F5F5;
+      }
 
       .navbar-toggler-icon{
         color:black;
