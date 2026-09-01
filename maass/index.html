@@ -122,13 +122,13 @@
             // Runs on every window change.
             // Size is set proportionally.
             let new_width =  Math.min(lastWidth,max_width);
-            let new_height = max_height / (max_width/new_width);
+            let new_height = (max_height / (max_width/new_width))/2;
             $('#album').turn("size", new_width, new_height);
           }
         });
         // Runs only first time.
         let new_width =  Math.min(lastWidth,max_width);
-        let new_height = max_height / (max_width/new_width);
+        let new_height = (max_height / (max_width/new_width))/2;
         $('#album').turn("size", new_width, max_height);
 
         $(window).bind('keydown', function (e) {
