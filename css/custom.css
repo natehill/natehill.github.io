@@ -1,4 +1,4 @@
-        body{
+    body{
         background-color: #f8f9fa;
     }
     
@@ -22,7 +22,7 @@
         aspect-ratio: 1 / 1;     /* Forces the height to equal the width */
         object-fit: cover;       /* Crops the excess image without distortion */
         object-position: center; /* Centers the crop area (optional) */
-      }
+    }
       .navbar{
         background-color:#F5F5F5;
         font-family: 'Bitter', serif;
