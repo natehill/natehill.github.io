@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Libre+Barcode+39+Extended&display=swap" rel="stylesheet">  
     
-    <title>Namsan Mountain</title>
+    <title>MAASS Visit</title>
 
     <style type="text/css">
       body{
@@ -117,7 +117,7 @@
     </div>
   </nav>
 
-    <h1></h1>
+  <h1></h1>
     <div id="centered_container">
       <div id="album">
         <div></div> 
@@ -126,8 +126,9 @@
     
     <script>
       // Modify to FIT proportions of images.
-      var max_width = 1100;
-      var max_height = 360;
+      var max_width = 600;
+      var max_height = 810;
+      var width_to_trigger_single_mode = 480;
       
       const targetElement = $('#album')[0];
       var lastLeftMargin = $("#album").css("marginLeft");
@@ -158,7 +159,7 @@
         console.log('doc ready');
         var lastWidth = window.innerWidth;
         var display_mode = 'double'
-        if (lastWidth <= 480) {
+        if (lastWidth <= width_to_trigger_single_mode) {
           display_mode = 'single'
         }
         $('#album').turn({
@@ -168,7 +169,7 @@
           shadows: $.isTouch,
           elevation: 50,
           width: Math.min(lastWidth,max_width),
-          height: max_height,
+          height: Math.round(max_height / 2),
           autoCenter: true,
           when: {
             turning: function(e, page, view) {
@@ -178,26 +179,34 @@
           }
         });
         window.addEventListener('resize', () => {
+          display_mode = 'double'
           if (window.innerWidth !== lastWidth) {
             lastWidth = window.innerWidth;
-            console.log(lastWidth);
-            if (lastWidth <= 480) {
+            if (lastWidth <= width_to_trigger_single_mode) {
+              display_mode = 'single'
               $('#album').turn("display", "single");
             }
             else {
+               display_mode = 'double'
               $('#album').turn("display", "double");
             }
-            // Runs on every window change.
+            // Runs only on window resizing
             // Size is set proportionally.
             let new_width =  Math.min(lastWidth,max_width);
-            let new_height = max_height / (max_width/new_width);
+            let new_height = Math.round(max_height / (max_width/new_width));
+            if (display_mode == 'double') {
+              new_height = Math.round(new_height/2)
+            }
             $('#album').turn("size", new_width, new_height);
           }
         });
         // Runs only first time.
         let new_width =  Math.min(lastWidth,max_width);
-        let new_height = max_height / (max_width/new_width);
-        $('#album').turn("size", new_width, max_height);
+        let new_height =  Math.round(max_height / (max_width/new_width));
+        if (display_mode == 'double') {
+          new_height = Math.round(new_height/2)
+        }
+        $('#album').turn("size", new_width, new_height);
 
         $(window).bind('keydown', function (e) {
 
@@ -222,8 +231,6 @@
               $("#album").turn("addPage", element);
             }
           }
-
-
         }
       )
       .catch(error => console.error('Error reading file:', error));
