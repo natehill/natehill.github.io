@@ -9,14 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./lib/turn.min.js"></script>
-    <link href="../css/custom.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Libre+Barcode+39+Extended&display=swap" rel="stylesheet">  
     
-    <title>MAASS Visit</title>
+    <title>Namsan Mountain</title>
 
     <style type="text/css">
       body{
@@ -117,7 +117,7 @@
     </div>
   </nav>
 
-  <h1></h1>
+    <h1></h1>
     <div id="centered_container">
       <div id="album">
         <div></div> 
@@ -126,9 +126,8 @@
     
     <script>
       // Modify to FIT proportions of images.
-      var max_width = 600;
-      var max_height = 810;
-      var width_to_trigger_single_mode = 480;
+      var max_width = 1100;
+      var max_height = 360;
       
       const targetElement = $('#album')[0];
       var lastLeftMargin = $("#album").css("marginLeft");
@@ -159,7 +158,7 @@
         console.log('doc ready');
         var lastWidth = window.innerWidth;
         var display_mode = 'double'
-        if (lastWidth <= width_to_trigger_single_mode) {
+        if (lastWidth <= 480) {
           display_mode = 'single'
         }
         $('#album').turn({
@@ -169,7 +168,7 @@
           shadows: $.isTouch,
           elevation: 50,
           width: Math.min(lastWidth,max_width),
-          height: Math.round(max_height / 2),
+          height: max_height,
           autoCenter: true,
           when: {
             turning: function(e, page, view) {
@@ -179,34 +178,26 @@
           }
         });
         window.addEventListener('resize', () => {
-          display_mode = 'double'
           if (window.innerWidth !== lastWidth) {
             lastWidth = window.innerWidth;
-            if (lastWidth <= width_to_trigger_single_mode) {
-              display_mode = 'single'
+            console.log(lastWidth);
+            if (lastWidth <= 480) {
               $('#album').turn("display", "single");
             }
             else {
-               display_mode = 'double'
               $('#album').turn("display", "double");
             }
-            // Runs only on window resizing
+            // Runs on every window change.
             // Size is set proportionally.
             let new_width =  Math.min(lastWidth,max_width);
-            let new_height = Math.round(max_height / (max_width/new_width));
-            if (display_mode == 'double') {
-              new_height = Math.round(new_height/2)
-            }
+            let new_height = max_height / (max_width/new_width);
             $('#album').turn("size", new_width, new_height);
           }
         });
         // Runs only first time.
         let new_width =  Math.min(lastWidth,max_width);
-        let new_height =  Math.round(max_height / (max_width/new_width));
-        if (display_mode == 'double') {
-          new_height = Math.round(new_height/2)
-        }
-        $('#album').turn("size", new_width, new_height);
+        let new_height = max_height / (max_width/new_width);
+        $('#album').turn("size", new_width, max_height);
 
         $(window).bind('keydown', function (e) {
 
@@ -231,12 +222,14 @@
               $("#album").turn("addPage", element);
             }
           }
+
+
         }
       )
       .catch(error => console.error('Error reading file:', error));
     });
     </script>
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="../js/custom.js"></script>
-  </html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="js/custom.js"></script>
+</html>
